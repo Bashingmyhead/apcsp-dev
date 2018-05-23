@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf("Hello World!\n");
+	printf("Goodbye World!\nCCA\nAPCSP\n");
 	return 0;
 }
 
