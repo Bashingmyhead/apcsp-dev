@@ -9,10 +9,12 @@ float circleArea(float a)
 }
 
 
-int main()
+float main()
 {
 	float area = 0;
-
-	area = circleArea(2);
-	printf("The area of the circle with radius 2 is %f\n", area); 
+	for (float radius = 3.5; radius < 13; radius++)
+	{
+		area = circleArea(radius);
+		printf("The area of the circle with radius %f is %f\n", radius, area); 
+	}
 }
